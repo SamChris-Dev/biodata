@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+     <title>Biodata</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                background-color: #f9f9f9;
+            }
+            .container{
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+
+            header{
+                position: relative;
+                background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+                background-size: cover;
+                background-position: center;
+                color: white;
+                text-align: center;
+                padding: 3rem 1rem;
+            }
+
+            header::before{
+                content: "";
+                position: absolute;
+                top: 0; left: 0; right: 0; bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 0;
+            }
+            header h1{
+                position: relative;
+                z-index: 1;
+            }
+
+            .section {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            }
+
+            .section h2, .section h3 {
+             background-color: #d3d3d3;
+             padding: 0.5rem;
+             border-radius: 3px;
+             color: #333;
+            }
+
+            .highlight {
+             color: #007bff;
+             font-weight: bold;
+            }
+
+            nav {
+             background-color: #f4f4f4;
+             text-align: center;
+             padding: 1rem;
+            }
+
+            nav a {
+             margin: 0 1rem;
+             text-decoration: none;
+             color: #007bff;
+            }
+
+            nav a:hover {
+             color: #0056b3;
+            }
+
+            form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            }
+
+            input, textarea, button {
+             padding: 0.5rem;
+             font-size: 1rem;
+            }
+
+            footer {
+                text-align: center;
+                padding: 1rem;
+                background-color: #f4f4f4;
+            }
+
+            button:hover {
+            background: #0056b3;
+            color: white;
+            }
+
+            .fa {
+                padding: 4px;
+                font-size: 30px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .fa:hover {
+             opacity: 0.7;
+            }
+
+            .fa-instagram {
+               background: #591ce98a;
+               color: rgb(0, 0, 0);
+               border-radius: 50%;
+            }
+
+            .fa-snapchat-ghost {
+                background: #fffc00;
+                color: white;
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                border-radius: 50%;
+            }
+
+            .fa-pinterest {
+            background: #cb2027;
+            color: white;
+            border-radius: 50%;
+            }
+
+
+        </style>  
+    </head>
+   <body>
+        <header>
+            <h1>Welcome to My Biodata Page</h1>
+        </header>
+         <nav>
+                    <ul>
+                     <a href="#about">About Me</a>
+                     <a href="#modules">Modules</a>
+                     <a href="#favorites">Favourites</a>
+                     <a href="#emotions">Emotions</a>
+                     <a href="#bestfriend">Best Friend</a>
+                     <a href="#contact">Contact</a>
+                    </ul>
+                </nav>
+                <div class="container">
+                    <div class="section" id="about">
+                      <h2>About <span class="highlight">Me</span></h2>
+                      <h3><span class="highlight">Angelakate </span>James Steven</h3>
+                      <p> Iam a <strong> first- year student</strong> at <em>IFM </em>, currently pursuing a Bachelor's in <b>Information Technology</b>. I don't live in a student hostel, and I enjoy <i>watching netflix movies</i> in my free time. I'm also passionate about <span class="highlight">web development</span>.</p>
+                    </div>
+                    <div class="section" id="modules">
+                      <h2>2nd Semester Modules</h2>
+                       <ul>
+                         <li><span class="highlight">Procedural programming</span> - Learn to create console application using c and c++ language.</li>
+                         <li><span class="highlight">Database Systems Management</span> - Study how to manage and use databases.</li>
+                         <li><span class="highlight">Operating Systems</span> - Understand how systems manage hardware/software.</li>
+                         <li><span class="highlight">Data communication</span> - Explore computer communication systems.</li>
+                         <li><span class="highlight">Advanced Systems Analysis and Design</span> - Designing solutions to complex challenges in system development.</li>
+                         <li><span class="highlight">Web Technologies and Application</span> - Learn to create websites using HTML, CSS, and JS.</li>
+                         </ul>
+                    </div>
+                        <div class="section" id="favorites">
+                          <h2>Favorites</h2>
+                            <h3>Movies</h3>
+                                <ol>
+                                    <li>The forge - 2024 American Christian drama film directed by Alex Kendrick. <a href="https://www.imdb.com/title/tt26731216/" target="_blank">IMDb</a></li>
+                                    <li>War room - The story revolves around a couple, that turns to God. <a href="https://www.imdb.com/title/tt3832914/" target="_blank">IMDb</a></li>
+                                    <li>Gran Tursimo - Based on the unbelievable, inspiring true story of a team of underdogs. <a href="https://www.imdb.com/title/tt4495098/" target="_blank">IMDb</a></li>
+                                </ol>
+                            <h3>Books</h3>
+                                <ol>
+                                   <li>The moment of Truth - how self discipline plays a critical role to personal development. <a href="https://www.https://www.goodreads.com/book/show/24992567-the-moment-of-truth" target="_blank">Goodreads</a></li>
+                                   <li>The art of thinking clearly - A compendium of systematic errors in decision making.. <a href="https://www.https://www.goodreads.com/book/show/16248196-the-art-of-thinking-clearly" target="_blank">Goodreads</a></li>
+                                   <li>Diary of the wimpy kid- the value of friendship, and understanding the pressures of conformity. <a href="https://www.https://www.https://www.goodreads.com/series/45336-diary-of-a-wimpy-kid" target="_blank">Goodreads</a></li>
+                                </ol>
+                            <h3>TV Shows</h3>
+                                <ol>
+                                    <li>Air crash investigation - a documentary that investigates aviation disasters. <a href="https://www.imdb.com/title/tt0386950/" target="_blank">IMDb</a></li>
+                                    <li>How it's made- documentary television series which focuses on how everyday items are being made. <a href="https://www.imdb.com/title/tt0835010/" target="_blank">IMDb</a></li>
+                                    <li>Zero day - A former U.S. President is called out of retirement <a href="https://www.netflix.com/title/81598435" target="_blank">Netflix</a></li>
+                                </ol>
+                        </div>
+                         <div class="section" id="emotions">
+                                <h2>Emotions</h2>
+                                <p>Happy: <img src="happy.png" alt="Happy me" style="width: 50px; height: 50px; padding: auto; margin-left: 20px;"></p>
+                                <p>Sad: <img src="sad.png" alt="Sad me" style="width: 50px; height: 50px; padding: auto; margin-left: 40px;"></p>
+                         </div>
+                            <div class="section" id="bestfriend">
+                             <h2>Best Friend on Campus</h2>
+                                <p>My best friend is <span class="highlight">Upendo Richard</span>. We always <em>study together</em> and share our ideas during lab sessions. She's very supportive and smart!</p>
+                            </div>
+                            <div class="section" id="contact">
+                                <h2>Contact Form</h2>
+                                 <form>
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" required>
+
+                                    <label for="message">Message:</label>
+                                        <textarea id="message" rows="4" required></textarea>
+
+                                    <button type="submit">Send</button>
+                                    </form>
+                                    </div>
+
+
+
+                </div>
+
+            
+            <footer>
+              <p>Copyright &copy; Angelakate&hearts;&trade;. All rights reserved.</p>
+             <a href="https://www.instagram.com/angelakathrynne?igsh=M2Uxa2JpcW41bTNt" class="fa fa-instagram"></a>
+             <a href="https://pin.it/2EOQyY1l2" class="fa fa-pinterest"></a>
+             <a href="https://www.snapchat.com/add/angelakathrynne?share_id=tdOt9XNltEA&locale=en-GB" class="fa fa-snapchat-ghost"></a>
+
+             </footer>
+    
+    </body>
+</html>
